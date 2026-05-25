@@ -1,16 +1,9 @@
-pandas
-numpy
-scikit-learn
-imbalanced-learn
-matplotlib
-seaborn
-joblib
-xgboost
-lightgbm
-tensorflow
-shap
 fastapi
 uvicorn
-pydantic
 
-pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn joblib xgboost lightgbm tensorflow shap fastapi uvicorn pydantic
+numpy
+pandas
+joblib
+scikit-learn
+tensorflow
+shap
