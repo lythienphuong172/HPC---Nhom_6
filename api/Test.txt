@@ -1,0 +1,67 @@
+1:
+{
+  "step": 10,
+  "type": "TRANSFER",
+  "amount": 500000.0,
+  "oldbalanceOrg": 500000.0,
+  "newbalanceOrig": 0.0,
+  "oldbalanceDest": 0.0,
+  "newbalanceDest": 0.0,
+  "nameDest": "C987654321"
+}
+
+{
+  "step": 1,
+  "type": "TRANSFER",
+  "amount": 181.0,
+  "oldbalanceOrg": 181.0,
+  "newbalanceOrig": 0.0,
+  "oldbalanceDest": 0.0,
+  "newbalanceDest": 0.0,
+  "nameDest": "C553264065"
+}
+
+0:
+{
+  "step": 1,
+  "type": "CASH_OUT",
+  "amount": 181.0,
+  "oldbalanceOrg": 181.0,
+  "newbalanceOrig": 0.0,
+  "oldbalanceDest": 0.0,
+  "newbalanceDest": 181.0,
+  "nameDest": "C123456789"
+}
+
+{
+  "step": 15,
+  "type": "PAYMENT",
+  "amount": 2500.0,
+  "oldbalanceOrg": 100000.0,
+  "newbalanceOrig": 97500.0,
+  "oldbalanceDest": 0.0,
+  "newbalanceDest": 0.0,
+  "nameDest": "M123456789"
+}
+
+{
+  "step": 20,
+  "type": "CASH_IN",
+  "amount": 30000.0,
+  "oldbalanceOrg": 20000.0,
+  "newbalanceOrig": 50000.0,
+  "oldbalanceDest": 100000.0,
+  "newbalanceDest": 70000.0,
+  "nameDest": "C555555555"
+}
+
+{
+  "step": 25,
+  "type": "CASH_OUT",
+  "amount": 10000.0,
+  "oldbalanceOrg": 50000.0,
+  "newbalanceOrig": 40000.0,
+  "oldbalanceDest": 200000.0,
+  "newbalanceDest": 210000.0,
+  "nameDest": "C222222222"
+}
