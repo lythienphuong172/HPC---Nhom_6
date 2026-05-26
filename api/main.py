@@ -158,6 +158,9 @@ def preprocess_input(data: TransactionInput):
     # Chỉ scale numeric_cols, không scale one-hot/binary
     df_scaled = df.copy()
 
+    # Cast to float32 first to avoid pandas TypeError when assigning floats to ints
+    df_scaled[numeric_cols] = df_scaled[numeric_cols].astype("float32")
+
     numeric_input = df[numeric_cols].astype("float32")
     scaled_numeric = scaler.transform(numeric_input)
 
